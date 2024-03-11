@@ -32,11 +32,11 @@ namespace Mqtt_homeapp
             var message = Encoding.UTF8.GetString(e.Message);
             //label2.Invoke((MethodInvoker)(() => label2.Text = message));
 
-            if (e.Topic == "test1892")
+            if (e.Topic == "wpf-home-temp")
             {
                 label2.Invoke((MethodInvoker)(() => label2.Text = message));
             }
-            else if (e.Topic == "test1893")
+            else if (e.Topic == "wpf-home-hum")
             {
                 label4.Invoke((MethodInvoker)(() => label4.Text = message));
             }
@@ -48,9 +48,12 @@ namespace Mqtt_homeapp
             {
                 mqttClient = new MqttClient("broker.hivemq.com");
                 mqttClient.MqttMsgPublishReceived += MqClient_MqttMsgPublishReceived;
-                mqttClient.Subscribe(new string[] {"test1892", "test1893"}, new byte[] {MqttMsgBase.QOS_LEVEL_AT_LEAST_ONCE, MqttMsgBase.QOS_LEVEL_AT_LEAST_ONCE});
+                mqttClient.Subscribe(new string[] {"wpf-home-temp", "wpf-home-hum"}, new byte[] {MqttMsgBase.QOS_LEVEL_AT_LEAST_ONCE, MqttMsgBase.QOS_LEVEL_AT_LEAST_ONCE});
                 mqttClient.Connect("testik");
             });
+
+
+
         }
 
         

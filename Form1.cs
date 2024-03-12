@@ -56,7 +56,5 @@ namespace Mqtt_homeapp
 
         }
 
-        
-
     }
 }

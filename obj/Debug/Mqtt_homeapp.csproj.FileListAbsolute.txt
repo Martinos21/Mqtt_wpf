@@ -26,4 +26,4 @@ C:\Users\Martin\Documents\GitHub\Mqtt_wpf\obj\Debug\Mqtt_homeapp.csproj.Generate
 C:\Users\Martin\Documents\GitHub\Mqtt_wpf\obj\Debug\Mqtt_homeapp.csproj.CoreCompileInputs.cache
 C:\Users\Martin\Documents\GitHub\Mqtt_wpf\obj\Debug\Mqtt_homeapp.exe
 C:\Users\Martin\Documents\GitHub\Mqtt_wpf\obj\Debug\Mqtt_homeapp.pdb
-C:\Users\martin\Documents\GitHub\Mqtt_wpf\obj\Debug\Mqtt_hom.E919FE89.Up2Date
+C:\Users\Martin\Documents\GitHub\Mqtt_wpf\obj\Debug\Mqtt_homeapp.csproj.CopyComplete

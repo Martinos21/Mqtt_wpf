@@ -46,6 +46,7 @@ namespace Mqtt_homeapp
             return index;
         }
 
+
         public double CalculateAverage(List<double> collection)
         {
             double sum = 0;

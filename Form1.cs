@@ -26,12 +26,35 @@ namespace Mqtt_homeapp
         List<double> temp_avg = new List<double>();
         List<double> hum_avg = new List<double>();
         List<double> press_avg = new List<double>();
-
+        List<data> dataList = new List<data>();
 
         public Form1()
         {
             InitializeComponent();
+        }
 
+        private void button2_Click(object sender, EventArgs e)
+        {
+            var newform = new Form2();
+            newform.Show();
+        }
+
+        private void UpdateListBox()
+        {
+            
+            listBox1.Items.Clear();
+
+            foreach (data item in dataList)
+            {
+                listBox1.Items.Add($"Temperature: {item.Temp}, Humidity: {item.Hum}, Pressure: {item.Press}, Life Index: {item.life_index(item.Temp, item.Press, item.Hum)}");
+            }
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            data newItem = new data(temp_double, hum_double, press_double);
+            dataList.Add(newItem);
+            UpdateListBox();
         }
 
         private void MqClient_MqttMsgPublishReceived(object sender, MqttMsgPublishEventArgs e)
@@ -91,9 +114,6 @@ namespace Mqtt_homeapp
                 mqttClient.Subscribe(new string[] {"wpf-home-temp", "wpf-home-hum", "wpf-home-press"}, new byte[] {MqttMsgBase.QOS_LEVEL_AT_LEAST_ONCE, MqttMsgBase.QOS_LEVEL_AT_LEAST_ONCE, MqttMsgBase.QOS_LEVEL_AT_LEAST_ONCE});
                 mqttClient.Connect("testik");
             });
-
-
-
         }
     }
 }

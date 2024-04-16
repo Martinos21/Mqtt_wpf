@@ -3,16 +3,28 @@
   "WorkspaceRootPath": "C:\\Users\\martin\\Documents\\GitHub\\Mqtt_wpf\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{21BA7BC0-ACF6-4868-8F8A-2D50512B1AEF}|Mqtt_homeapp.csproj|c:\\users\\martin\\documents\\github\\mqtt_wpf\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{21BA7BC0-ACF6-4868-8F8A-2D50512B1AEF}|Mqtt_homeapp.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{21BA7BC0-ACF6-4868-8F8A-2D50512B1AEF}|Mqtt_homeapp.csproj|c:\\users\\martin\\documents\\github\\mqtt_wpf\\graphs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{21BA7BC0-ACF6-4868-8F8A-2D50512B1AEF}|Mqtt_homeapp.csproj|solutionrelative:graphs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{21BA7BC0-ACF6-4868-8F8A-2D50512B1AEF}|Mqtt_homeapp.csproj|C:\\Users\\martin\\Documents\\GitHub\\Mqtt_wpf\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{21BA7BC0-ACF6-4868-8F8A-2D50512B1AEF}|Mqtt_homeapp.csproj|c:\\users\\martin\\documents\\github\\mqtt_wpf\\data.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{21BA7BC0-ACF6-4868-8F8A-2D50512B1AEF}|Mqtt_homeapp.csproj|solutionrelative:data.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{21BA7BC0-ACF6-4868-8F8A-2D50512B1AEF}|Mqtt_homeapp.csproj|c:\\users\\martin\\documents\\github\\mqtt_wpf\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{21BA7BC0-ACF6-4868-8F8A-2D50512B1AEF}|Mqtt_homeapp.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{21BA7BC0-ACF6-4868-8F8A-2D50512B1AEF}|Mqtt_homeapp.csproj|C:\\Users\\martin\\Documents\\GitHub\\Mqtt_wpf\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{21BA7BC0-ACF6-4868-8F8A-2D50512B1AEF}|Mqtt_homeapp.csproj|solutionrelative:form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{21BA7BC0-ACF6-4868-8F8A-2D50512B1AEF}|Mqtt_homeapp.csproj|c:\\users\\martin\\documents\\github\\mqtt_wpf\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{21BA7BC0-ACF6-4868-8F8A-2D50512B1AEF}|Mqtt_homeapp.csproj|solutionrelative:form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{21BA7BC0-ACF6-4868-8F8A-2D50512B1AEF}|Mqtt_homeapp.csproj|c:\\users\\martin\\documents\\github\\mqtt_wpf\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{21BA7BC0-ACF6-4868-8F8A-2D50512B1AEF}|Mqtt_homeapp.csproj|solutionrelative:form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{21BA7BC0-ACF6-4868-8F8A-2D50512B1AEF}|Mqtt_homeapp.csproj|C:\\Users\\martin\\Documents\\GitHub\\Mqtt_wpf\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{21BA7BC0-ACF6-4868-8F8A-2D50512B1AEF}|Mqtt_homeapp.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,43 +34,84 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Form1.Designer.cs",
-              "DocumentMoniker": "C:\\Users\\martin\\Documents\\GitHub\\Mqtt_wpf\\Form1.Designer.cs",
-              "RelativeDocumentMoniker": "Form1.Designer.cs",
-              "ToolTip": "C:\\Users\\martin\\Documents\\GitHub\\Mqtt_wpf\\Form1.Designer.cs",
-              "RelativeToolTip": "Form1.Designer.cs",
-              "ViewState": "AQIAACUAAAAAAAAAAAAiwDEAAAAmAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-12T12:07:42.682Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 5,
               "Title": "Form1.cs",
               "DocumentMoniker": "C:\\Users\\martin\\Documents\\GitHub\\Mqtt_wpf\\Form1.cs",
               "RelativeDocumentMoniker": "Form1.cs",
               "ToolTip": "C:\\Users\\martin\\Documents\\GitHub\\Mqtt_wpf\\Form1.cs",
               "RelativeToolTip": "Form1.cs",
-              "ViewState": "AQIAACEAAAAAAAAAAAAqwDUAAAAfAAAA",
+              "ViewState": "AQIAABgAAAAAAAAAAAAtwCYAAAAYAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-03-09T22:00:37.155Z",
+              "IsPinned": true,
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "data.cs",
+              "DocumentMoniker": "C:\\Users\\martin\\Documents\\GitHub\\Mqtt_wpf\\data.cs",
+              "RelativeDocumentMoniker": "data.cs",
+              "ToolTip": "C:\\Users\\martin\\Documents\\GitHub\\Mqtt_wpf\\data.cs",
+              "RelativeToolTip": "data.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-16T13:34:56.697Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "graphs.cs",
+              "DocumentMoniker": "C:\\Users\\martin\\Documents\\GitHub\\Mqtt_wpf\\graphs.cs",
+              "RelativeDocumentMoniker": "graphs.cs",
+              "ToolTip": "C:\\Users\\martin\\Documents\\GitHub\\Mqtt_wpf\\graphs.cs",
+              "RelativeToolTip": "graphs.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAgAAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-16T13:25:20.449Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "Form1.cs [Design]",
               "DocumentMoniker": "C:\\Users\\martin\\Documents\\GitHub\\Mqtt_wpf\\Form1.cs",
               "RelativeDocumentMoniker": "Form1.cs",
               "ToolTip": "C:\\Users\\martin\\Documents\\GitHub\\Mqtt_wpf\\Form1.cs [Design]",
               "RelativeToolTip": "Form1.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-09T22:00:37.236Z"
+              "WhenOpened": "2024-03-09T22:00:37.236Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Form2.cs",
+              "DocumentMoniker": "C:\\Users\\martin\\Documents\\GitHub\\Mqtt_wpf\\Form2.cs",
+              "RelativeDocumentMoniker": "Form2.cs",
+              "ToolTip": "C:\\Users\\martin\\Documents\\GitHub\\Mqtt_wpf\\Form2.cs",
+              "RelativeToolTip": "Form2.cs",
+              "ViewState": "AQIAAAcAAAAAAAAAAAD4vxUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-16T13:18:38.409Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Form2.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\martin\\Documents\\GitHub\\Mqtt_wpf\\Form2.cs",
+              "RelativeDocumentMoniker": "Form2.cs",
+              "ToolTip": "C:\\Users\\martin\\Documents\\GitHub\\Mqtt_wpf\\Form2.cs [Design]",
+              "RelativeToolTip": "Form2.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-16T13:18:34.574Z",
+              "EditorCaption": " [Design]"
             }
           ]
         }

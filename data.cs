@@ -15,7 +15,7 @@ namespace Mqtt_homeapp
         public double life_index(double temperature, double press, double hum)
         {
             double idealTemp = 20.0;
-            double idealPress = 1013.0;
+            double idealPress = 1010.0;
             double idealHumLow = 30.0;
             double idealHumHigh = 40.0;
 
@@ -51,13 +51,11 @@ namespace Mqtt_homeapp
         {
             double sum = 0;
 
-            // Calculate the sum of all elements in the collection
             foreach (double num in collection)
             {
                 sum += num;
             }
 
-            // Calculate the average
             double average = sum / collection.Count;
 
             return average;
@@ -71,4 +69,24 @@ namespace Mqtt_homeapp
 
         }
     }
+
+    class home : data 
+    {
+        public List<Room> Rooms { get; set; }
+        public home(double temp, double hum, double press) : base(temp, hum, press)
+        {
+            Rooms = new List<Room>();
+        }
+    }
+
+    class Room : data
+    {
+        public string Name { get; set; }
+
+        public Room(double temp, double hum, double press, string name) : base(temp, hum, press)
+        {
+            Name = name;
+        }
+    }
+
 }

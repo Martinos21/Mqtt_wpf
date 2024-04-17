@@ -12,6 +12,7 @@ using ComponentFactory.Krypton.Toolkit;
 using uPLibrary.Networking.M2Mqtt;
 using uPLibrary.Networking.M2Mqtt.Messages;
 using System.Globalization;
+using System.IO;
 
 
 namespace Mqtt_homeapp
@@ -35,8 +36,28 @@ namespace Mqtt_homeapp
 
         private void button2_Click(object sender, EventArgs e)
         {
-            var newform = new Form2();
+            var newform = new Form2(temp_avg,hum_avg, press_avg, temp_double, hum_double, press_double);
             newform.Show();
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            string fileName = "Test";
+
+            string directory = AppDomain.CurrentDomain.BaseDirectory;
+
+            string filePath = Path.Combine(directory, fileName);
+
+            using (StreamWriter writer = new StreamWriter(filePath))
+            {
+
+                foreach (var item in listBox1.Items)
+                {
+                    writer.WriteLine(item.ToString());
+                }
+            }
+
+            MessageBox.Show("List content saved to CSV file successfully.");
         }
 
         private void UpdateListBox()
@@ -113,6 +134,7 @@ namespace Mqtt_homeapp
                 mqttClient.MqttMsgPublishReceived += MqClient_MqttMsgPublishReceived;
                 mqttClient.Subscribe(new string[] {"wpf-home-temp", "wpf-home-hum", "wpf-home-press"}, new byte[] {MqttMsgBase.QOS_LEVEL_AT_LEAST_ONCE, MqttMsgBase.QOS_LEVEL_AT_LEAST_ONCE, MqttMsgBase.QOS_LEVEL_AT_LEAST_ONCE});
                 mqttClient.Connect("testik");
+                label9.Invoke((MethodInvoker)(() => label19.Text = mqttClient.IsConnected ? "Connected" : "Disconnected"));
             });
         }
     }

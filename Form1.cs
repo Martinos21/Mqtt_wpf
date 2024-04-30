@@ -15,6 +15,7 @@ using System.Globalization;
 using System.IO;
 
 
+
 namespace Mqtt_homeapp
 {
     public partial class Form1 : KryptonForm
@@ -110,9 +111,9 @@ namespace Mqtt_homeapp
             data test = new data (temp_double, hum_double, press_double);
 
             double test_val = test.life_index(temp_double, press_double, hum_double);
-            double temp_avg_val = test.CalculateAverage(temp_avg);
-            double hum_avg_val = test.CalculateAverage(hum_avg);
-            double press_avg_val = test.CalculateAverage(press_avg);
+            double temp_avg_val = Math.Round(test.CalculateAverage(temp_avg),2);
+            double hum_avg_val = Math.Round(test.CalculateAverage(hum_avg),2);
+            double press_avg_val = Math.Round(test.CalculateAverage(press_avg),2);
 
             string test_val_var = Convert.ToString(test_val, CultureInfo.InvariantCulture);
             string temp_avg_val_str = Convert.ToString(temp_avg_val, CultureInfo.InvariantCulture);
